@@ -68,7 +68,8 @@ div.article_short {
   background-color: #DBDBDB;
   margin: 5px 5px 5px 5px;
   width: 31vw;
-  height: 42vh;
+  overflow: hidden;
+  height: 36vh;
 }
 
 div.article_short img {
@@ -114,12 +115,15 @@ div.article_short span.pubdate {
 
 .article_preview{
     position: relative;
-    padding: 5px 0 0 5px;
     width: 100%;
     padding: 50px 10px 5px 10px;
     text-align: left;
     font-size: 10pt;
     color: #4A4A4A;
+}
+
+.article_preview:hover{
+    cursor: pointer;
 }
 
 
