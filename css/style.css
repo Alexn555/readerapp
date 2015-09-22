@@ -66,9 +66,7 @@ div.article_short {
   position: relative; 
   float:left;
   background-color: #DBDBDB;
-  margin-bottom: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 5px 5px 5px 5px;
   width: 31vw;
   height: 42vh;
 }
@@ -85,7 +83,7 @@ div.article_short img {
 div.article_short span.pubtitle {
    position: absolute;
    display: inline-block;
-   left: 0;
+   left: -2px;
    top: 0;
    width: 70%;
    height: 50px;
@@ -118,9 +116,10 @@ div.article_short span.pubdate {
     position: relative;
     padding: 5px 0 0 5px;
     width: 100%;
-    padding-top: 50px;
+    padding: 50px 10px 5px 10px;
     text-align: left;
-    color: #fefffd;
+    font-size: 10pt;
+    color: #4A4A4A;
 }
 
 
