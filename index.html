@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset='utf-8'>
+	    <meta name="description" content="Readability browser" />
+		<meta name="keywords" content="readbility, browser, articles" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Readability browser</title>
+        <link rel="icon" type="image/png" href="favicon.png" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <script src="js/jquery-2.1.4.min.js"></script>
+
+        <script src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">google.load("feeds", "1");</script>
+        <script src="js/utils.js"></script>
+        <script src="js/dateformater.js"></script>
+
+        <script src="js/articleViwer.js"></script>
+        <script src="js/rssparser.js"></script>
+        <script src="js/setup.js"></script>
+
+    </head>
+	<body>
+		<h3 class="mainpageTitle">ReadabilityBrowser - browser of articles using ReadbilityAPI</h3>
+
+        <div id="article_wrapper">
+            <div id="article_show" class="tCentered">
+                <div class="close_article"> X </div>
+                <div id="article_head">
+                    <!-- Author,  date published -->
+                    <span class="article_author"> YoMan </span>
+
+                    <img />
+
+                    <span class="article_pubdate"> Aug, 21 2015 </span>
+                </div>
+
+                <span class="title"> </span>
+                <div class="content"> </div>
+            </div>
+        </div>
+
+        <div id="loading">
+            <img src="images/loading.gif" />
+        </div>
+
+		<div id="container">
+
+          <!--<div class="article_short">
+                <img src="http://farm1.staticflickr.com/589/21064199071_85d1c0a24d_b.jpg">
+                <span class="pubtitle">Vintage Ford</span>
+                <p class="article_preview">
+                    This is the second part in a series I’m writing about lessons that can be learned
+                    from functional programming.
+                    Find the first part here. Object Oriented Programming (OOP) as an idea has been…
+                </p>
+               <span class="pubdate">2 Days ago</span>
+          </div>-->
+
+        </div>
+
+		
+	</body>
+</html>
